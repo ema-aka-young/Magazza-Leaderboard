@@ -1,11 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
-import "./index.css";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-ReactDOM.render((
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+ReactDOM.render(
+  <React.StrictMode>
     <App />
-  </BrowserRouter>
-));
+  </React.StrictMode>,
+  document.getElementById('root')
+);
