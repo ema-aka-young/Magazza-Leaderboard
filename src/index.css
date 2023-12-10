@@ -1,13 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron:regular,bold,black");
+
 body {
+  font-family: "Orbitron", regular;
+  background-color: #f4f4f4;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header img {
+  width: 100px; /* Adjust the width to your preference */
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container {
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Orbitron", bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.15s ease;
+}
+
+th {
+  background-color: #b6d369;
+  color: white;
+  font-size: 18px; /* Increase font size for the table header */
+  font-weight: bold; /* Add bold font weight to the table header */
+  text-transform: uppercase; /* Convert text to uppercase */
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #e3e8dd;
+}
+
+tr {
+  font-size: large;
+  height: 50px; /* Set a fixed height for all rows */
+}
+
+tr:hover td {
+  transform: scale(1.25); /* Scale the row slightly on hover */
+}
+
+.logo-for-competition {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-for-competition img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.medal-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.ranking-cell {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 0px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 95%;
+  }
+
+  th:nth-child(n + 3),
+  td:nth-child(n + 3) {
+    display: none; /* Hide columns starting from the 3rd column on smaller screens */
+  }
+
+  th:nth-child(-n + 2),
+  td:nth-child(-n + 2),
+  th:nth-last-child(-n + 2),
+  td:nth-last-child(-n + 2) {
+    display: table-cell; /* Show the first two and last two columns on smaller screens */
+  }
 }
