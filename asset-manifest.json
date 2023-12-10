@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/magaz-leaderboard/static/css/main.a42139d2.css",
+    "main.js": "/magaz-leaderboard/static/js/main.d0e750c2.js",
+    "index.html": "/magaz-leaderboard/index.html",
+    "main.a42139d2.css.map": "/magaz-leaderboard/static/css/main.a42139d2.css.map",
+    "main.d0e750c2.js.map": "/magaz-leaderboard/static/js/main.d0e750c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a42139d2.css",
+    "static/js/main.d0e750c2.js"
+  ]
+}
