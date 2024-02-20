@@ -28,7 +28,7 @@ const Leaderboard = () => {
     {
       id: 4,
       name: "Maggi",
-      scores: [5, 0, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 10, 5, 0, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 3,
     },
