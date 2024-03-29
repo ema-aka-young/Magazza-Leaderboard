@@ -7,70 +7,70 @@ const Leaderboard = () => {
     {
       id: 1,
       name: "Pi",
-      scores: [0, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+      scores: [0, 3, 0, 4, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 0,
     },
     {
       id: 2,
       name: "Stecca",
-      scores: [5, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 7, 0, 4, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 3,
       name: "Frinzi",
-      scores: [0, 7, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [0, 7, 5, 8, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 4,
       name: "Maggi",
-      scores: [5, 10, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 10, 5, 10, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
-      wins: 3,
+      wins: 4,
     },
     {
       id: 5,
       name: "Crazy",
-      scores: [0, 10, 0, 0, 0, 0, 0, 0, 0, 0],
+      scores: [0, 10, 0, 9, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 6,
       name: "Muriz",
-      scores: [0, 4, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [0, 5, 5, 6, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 7,
       name: "Iminz",
-      scores: [1, 2, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [1, 2, 5, 6, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 8,
       name: "Giova",
-      scores: [5, 10, 5, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 10, 5, 7, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 3,
     },
     {
       id: 9,
       name: "Doc",
-      scores: [5, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 1, 0, 4, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
     {
       id: 10,
       name: "AmicoDelMagazza",
-      scores: [5, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      scores: [5, 1, 0, 1, 0, 0, 0, 0, 0, 0],
       totalPoints: 0,
       wins: 1,
     },
@@ -133,13 +133,13 @@ const Leaderboard = () => {
               <LogoForCompetition imageSrc="lol.png" data-alt="" />
             </th>
             <th>
-              <LogoForCompetition imageSrc="fifa.png" data-alt="" />
+              <LogoForCompetition imageSrc="tft.webp" data-alt="" />
             </th>
             <th>
               <LogoForCompetition imageSrc="kart.png" data-alt="" />
             </th>
             <th>
-              <LogoForCompetition imageSrc="tbd.png" data-alt="" />
+              <LogoForCompetition imageSrc="fifa.png" data-alt="" />
             </th>
             <th>
               <LogoForCompetition imageSrc="tbd.png" data-alt="" />
