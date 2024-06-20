@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Magazza-Leaderboard/static/css/main.a42139d2.css",
-    "main.js": "/Magazza-Leaderboard/static/js/main.0d89929b.js",
+    "main.js": "/Magazza-Leaderboard/static/js/main.4acb2db0.js",
     "index.html": "/Magazza-Leaderboard/index.html",
     "main.a42139d2.css.map": "/Magazza-Leaderboard/static/css/main.a42139d2.css.map",
-    "main.0d89929b.js.map": "/Magazza-Leaderboard/static/js/main.0d89929b.js.map"
+    "main.4acb2db0.js.map": "/Magazza-Leaderboard/static/js/main.4acb2db0.js.map"
   },
   "entrypoints": [
     "static/css/main.a42139d2.css",
-    "static/js/main.0d89929b.js"
+    "static/js/main.4acb2db0.js"
   ]
 }
